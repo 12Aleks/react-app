@@ -3,7 +3,7 @@ import {Form} from '../components/Form'
 import {Notes} from "../components/Notes";
 
 export const Home = () => {
-    const notes = new Array(3)
+    const notes = new Array(10)
         .fill('')
         .map((_, i) => ({id: i, title: `Ìtem number ${i + 1}`}))
 
